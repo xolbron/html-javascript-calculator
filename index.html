@@ -3,13 +3,17 @@
     <head>
         <title>My Calculator</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Monoton|Fascinate|VT323" rel="stylesheet">
     </head>
     <body>
         <h1 id="title">Jerome's First Calculator</h1>
         <div id="keypad">
-            <table border="2">
+            <table>
                 <tr>
-                    <td id="display-bar" colspan="4" height="20px"></td></td>
+                    <td colspan="4" height="20px"><div id="display-bar"></div></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><div id="calculator-brand">TI-FOSTER</div></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="9" onclick="display(9)" /></td>
